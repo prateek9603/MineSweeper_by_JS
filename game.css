@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: navajowhite;
+
+}
+
+.game-heading{
+    margin: 20px;
+    text-align: center;
+}
+.game-heading p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px black solid;
+    margin: 10px auto;
+    cursor: pointer ;
+}
+
+
+button{
+    background-color: lightcoral;
+    margin: 20px 45px;
+    padding: 15px;
+    height: 50px;
+    width: 100px;
+    font-weight: 800;
+}
