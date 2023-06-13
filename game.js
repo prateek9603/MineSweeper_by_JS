@@ -20,6 +20,10 @@ for(let i = 0 ; i < box.length ; i++){
                 
                 over.innerHTML = "KTHM TATA BYE BYE GYA"
 
+                setTimeout(() => {
+                    window.location.reload();
+                }, 2000);
+
             }
             // box[i].style.background = "red"
         }
